@@ -77,10 +77,10 @@ if st.sidebar.button("Predict"):
         st.write(f"**Predicted Yield**: {prediction:.2f}")
 
 # 显示 PNG 图片
-st.subheader("1. Information of the Surveyed Medical Experts")
+st.subheader("1. workflows")
 image1 = Image.open("Basic_Information.png")
 st.image(image1, caption="Information of the surveyed medical experts", use_column_width=True)
 
-st.subheader("2. Evaluation of the Website-based Tool by the Medical Experts")
+st.subheader("2. workflows")
 image2 = Image.open("accuracy.png")
 st.image(image2, caption="Evaluation of the website-based tool by the medical experts", use_column_width=True)
