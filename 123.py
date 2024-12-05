@@ -53,6 +53,7 @@ input_data = pd.DataFrame({
     'VM': [Volatile_Matter],
     'FC': [Fixed_Carbon],
     'C': [C],
+    'H': [H],
     'O': [O],
     'N': [N],
     'PS': [Particle_Size],
